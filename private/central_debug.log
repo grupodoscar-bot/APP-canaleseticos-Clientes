@@ -1,0 +1,8 @@
+[2026-04-22 13:32:59Z] http_start {"method":"POST","path":"/api/v1/tenants/register","body":{"host":"canal.pruebaruben.com","empresa":"empresadeprueba","admin_email":"programacion@grupodoscar.es","version":"1.0"}}
+[2026-04-22 13:32:59Z] http_done {"status":200,"ok":true,"resp_preview":"{\"ok\":true,\"tenant_uid\":\"632aef6d-ec08-44c6-8aab-a5e57d4801bf\",\"license_key\":\"f4b8a37bfb43a52a77420b79ece0d9fc5fb0469df1d2f02a63e7273d60d57370\",\"status\":\"inactive\",\"message\":\"Pendiente de activación por el administrador.\"}","parsed_type":"array"}
+[2026-04-22 13:33:59Z] http_start {"method":"GET","path":"/api/v1/tenants/status","body":null}
+[2026-04-22 13:33:59Z] http_done {"status":200,"ok":true,"resp_preview":"{\"ok\":true,\"status\":\"inactive\",\"status_message\":null,\"next_check_seconds\":3600}","parsed_type":"array"}
+[2026-04-22 13:37:47Z] http_start {"method":"GET","path":"/api/v1/tenants/status","body":null}
+[2026-04-22 13:37:47Z] http_done {"status":200,"ok":true,"resp_preview":"{\"ok\":true,\"status\":\"inactive\",\"status_message\":null,\"next_check_seconds\":3600}","parsed_type":"array"}
+[2026-04-22 13:39:10Z] http_start {"method":"GET","path":"/api/v1/tenants/status","body":null}
+[2026-04-22 13:39:10Z] http_done {"status":200,"ok":true,"resp_preview":"{\"ok\":true,\"status\":\"inactive\",\"status_message\":null,\"next_check_seconds\":3600}","parsed_type":"array"}

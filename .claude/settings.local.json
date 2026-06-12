@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -v --resolve canaleseticos.es:443:194.163.188.101 https://canaleseticos.es/ --max-time 5)",
+      "Bash(curl -v --resolve canaleseticos.es:80:194.163.188.101 http://canaleseticos.es/ --max-time 5)",
+      "Bash(nslookup canaleseticos.es 8.8.8.8)"
+    ]
+  }
+}
